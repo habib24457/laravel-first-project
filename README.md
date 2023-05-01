@@ -12,3 +12,15 @@
 
 6.Run php artisan migrate
 Run php artisan serve
+
+# Adding Jetstream Login/Signup form
+
+1.composer require laravel/jetstream
+
+2.php artisan jetstream:install livewire
+
+3.npm install
+
+4.npm run dev
+
+5.php artisan migrate
